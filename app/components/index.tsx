@@ -401,7 +401,8 @@ const TextGeneration = () => {
   )
 
   const renderBatchRes = () => {
-    return (showTaskList.map(task => renderRes(task)))
+    // return (showTaskList.map(task => renderRes(task)))
+    return <>loading...</>
   }
 
   const renderResWrap = (
